@@ -3,6 +3,13 @@ This plugin used to be deprecated, but we need to reinstate it since iOS 13 + 14
 ## Usage
 
 Add this to your `package.json`:
+
+~~~
+cordova plugin add https://github.com/11com7/cordova-plugin-wkwebview-inputfocusfix.git --save
+~~~
+
+or
+
 ```
 {
   "dependencies": {
