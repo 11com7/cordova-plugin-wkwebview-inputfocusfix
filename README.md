@@ -1,4 +1,4 @@
-This plugin used to be deprecated, but we need to reinstate it since iOS 13 broke the autoFocus selector again. This means that the previously integrated changes in the official plugins (e.g. `cordova-plugin-wkwebview-engine` version `1.2.1`) no longer work on iOS 13 so the same focus bug has regressed. Apply this plugin temporarily until the issue is fixed in the main repositories.
+This plugin used to be deprecated, but we need to reinstate it since iOS 13 + 14 + 15 broke the autoFocus selector again. This means that the previously integrated changes in the official plugins (e.g. `cordova-plugin-wkwebview-engine` version `1.2.1`) no longer work on iOS 13 so the same focus bug has regressed. Apply this plugin temporarily until the issue is fixed in the main repositories.
 
 ## Usage
 
@@ -6,7 +6,7 @@ Add this to your `package.json`:
 ```
 {
   "dependencies": {
-    "cordova-plugin-wkwebview-inputfocusfix": "git+https://github.com/adaptabi/cordova-plugin-wkwebview-inputfocusfix"
+    "cordova-plugin-wkwebview-inputfocusfix": "git+https://github.com/11com7/cordova-plugin-wkwebview-inputfocusfix"
   },
   "cordova": {
     "plugins": {
@@ -17,7 +17,7 @@ Add this to your `package.json`:
 ```
 Then just clean your `platforms/ios` directory and rebuild.
 
-Once the main `wkwebview` fixes this issue for iOS 13 as well (see links below), you can stop using this plugin.
+Once the main `wkwebview` fixes this issue for iOS >= 13 as well (see links below), you can stop using this plugin.
 
 ### THIS PLUGIN IS DEPRECATED!
 
